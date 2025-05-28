@@ -1,0 +1,5 @@
+[book]
+authors = ["Jakub Hajduga"]
+language = "en"
+src = "src"
+title = "book"
