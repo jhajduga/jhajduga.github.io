@@ -17,6 +17,6 @@
 - [Development Notes:](./dev/index.md)
   <!-- - [GTest & Testing](./dev/gtest.md) -->
   - [Logging with spdlog & LogSvc](./dev/spdlog_and_logsvc.md)
-  <!-- - [Debian Deployment](./dev/deb_deploy.md) -->
+  - [Debian Deployment](./README.md)
   - [GitHub Actions: g4rt.yml](./dev/g4rt.yml)
   - [Dockerfile (raw)](./dev/dockerfile)
