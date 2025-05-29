@@ -27,7 +27,7 @@
 - [Geo Files](../../data/dose3d/geo/ReadMe.md)
 
 ## Externals
-- [Cmd](../../output/pokazowywp_5/sim/cp10x10/cp10x10_field_mask_plan.png)
+- [Cmd](../../GEANT4_LICENSE.txt)
 - [Config](../../externals/config/README.md)
 - [IAEA](../../externals/iaea/README.md)
 
