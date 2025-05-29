@@ -3,7 +3,7 @@ title = "G4RT Documentation"
 authors = ["Dose3D Team"]
 language = "en"
 multilingual = false
-src = "."  # root as source
+src = "."
 
 [build]
 build-dir = "book"
@@ -13,9 +13,16 @@ extra-watch-dirs = ["./core", "./data", "./docs", "./externals", "./submodules"]
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "navy"
-fold = true
+git-repository-url = "https://github.com/jhajduga/jhajduga.github.io"
+git-repository-icon = "fa-github"
+favicon = "favicon.ico"
+additional-css = ["externals/theme/custom.css"]
+additional-js = ["externals/theme/custom.js"]
 
 [output.html.search]
+enable = true
+
+[output.html.fold]
 enable = true
 
 [preprocessor.admonish]
