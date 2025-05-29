@@ -3,8 +3,8 @@
 [Introduction](../../README.md)
 
 ## Project Overview
-- [Proposal](../../README_PROPOSAL.md)
-- [TODOs](../../TODO.md)
+- [Proposal](../README_PROPOSAL.md)
+- [TODOs](../TODO.md)
 
 ## Documentation
 - [Dose3D Single Module](../Dose3D_single_module.md)
