@@ -1,22 +1,37 @@
 # Summary
 
-- [Introduction](./index.md)
-<!-- - [Running G4RT](./run_g4rt.md) -->
-- [TOML Job Configuration](./toml_job_structure.md)
+[Introduction](../../README.md)
 
-## 🧪 Test Beams & Modules
-<!-- - [Dose3D – Single Module](./Dose3D_single_module.md) -->
-- [Testbeam – May 2023](./Testbeam_052023.md)
+## Project Overview
+- [Proposal](../../README_PROPOSAL.md)
+- [TODOs](../../TODO.md)
 
-## 🐧 Linux & WSL Setups (WIP)
-- [WSL: Ubuntu 22.04 + G4RT](./wsl-ubuntu-22.04.md)
-<!-- - [Ubuntu + CVMFS (WIP)](./Ubuntu-CVMFS_work_in_progress.md) -->
-- [Linux + WSL + CVMFS (WIP)](./Linux-WSL-CVMFS_work_in_progress.md)
+## Documentation
+- [Dose3D Single Module](../Dose3D_single_module.md)
+- [Run G4RT](../run_g4rt.md)
+- [TOML Job Structure](../toml_job_structure.md)
 
-## 🛠️ Development
-- [Development Notes:](./dev/index.md)
-  <!-- - [GTest & Testing](./dev/gtest.md) -->
-  - [Logging with spdlog & LogSvc](./dev/spdlog_and_logsvc.md)
-  - [Debian Deployment](./README.md)
-  - [GitHub Actions: g4rt.yml](./dev/g4rt.yml)
-  - [Dockerfile (raw)](./dev/dockerfile)
+### Development
+- [Deployment with DEB](../dev/deb_deploy.md)
+- [GoogleTest Integration](../dev/gtest.md)
+- [Spdlog and LogSvc](../dev/spdlog_and_logsvc.md)
+
+## Core
+- [Beam Collimation](../../core/geometry/Linac/BeamCollimation/README.md)
+- [MLC](../../core/geometry/Linac/BeamCollimation/MLC/README.md)
+- [Patient Detector](../../core/geometry/Patient/D3DDetector/README.md)
+- [Geant4 Utilities](../../core/utilities/IGeant4/README.md)
+
+## Data
+- [Data Overview](../../data/README.md)
+- [Geo Files](../../data/dose3d/geo/ReadMe.md)
+
+## Externals
+- [Cmd](../../output/pokazowywp_5/sim/cp10x10/cp10x10_field_mask_plan.png)
+- [Config](../../externals/config/README.md)
+- [IAEA](../../externals/iaea/README.md)
+
+## Submodules
+- [Submodules Overview](../../submodules/README.md)
+- [D3DF Patients](../../submodules/d3df-patients/README.md)
+- [Patient 01 CT](../../submodules/d3df-patients/patient/dicom/patient_01_CT/README.md)
