@@ -5,9 +5,14 @@ language = "en"
 multilingual = false
 src = "src"
 
+[build]
+build-dir = "book"
+create-missing = true
+extra-watch-dirs = ["./", "./core", "./data", "./externals", "./submodules"]
+
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "navy"
 
-[build]
-extra-watch-dirs = []   
+[output.html.search]
+enable = true
