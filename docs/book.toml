@@ -3,8 +3,11 @@ title = "G4RT Documentation"
 authors = ["Dose3D Team"]
 language = "en"
 multilingual = false
-src = "src"
+src = "./."
 
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "navy"
+
+[build]
+extra-watch-dirs = []   
